@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <style>
+            .box{
+                width:200px;
+                height:200px;
+                background-color:red;
+                border-radius: 10px 50%;
+                
+                }
+                .box:hover{
+                     width:500px;
+                    height:500px;
+                    background-color:lightgreen;
+                    border-radius:0px 50%;
+                    transition: width 3s,height 3s;
+                    transition:all 3s;
+                    
+                    
+                }
+                .myimage{
+                   width:200px;
+                   height:200px;
+                   border-radius:50%;
+
+                   
+                }
+                .myimage:hover{
+                    
+                    transform:scale(1.2);
+                    transition:2s;
+                
+                }
+                .mybutton{
+                    background-color:red;
+                    color:black;
+                    padding: 5px 20px;
+                    border:none;
+                    border-radius:5px;
+                    font-size:16px;
+                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+                }
+                .mybutton:hover{
+                    background-color:green;
+                    color:white;
+                    font-size:30px;
+                    transition:0.2s;
+                }
+        </style>
+
+    </head>
+    <body>
+
+        <button class="MyButton"><b>Home</b></button>
+
+        <br><br>
+        
+        <img src="download.jpeg " class="myimage">
+        <br><br>
+        <div class="box">
+
+        </div>
+    </body>
+</html>
